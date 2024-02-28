@@ -1,0 +1,39 @@
+1. Importação da biblioteca:
+import pandas as pd
+
+2. Leitura de dados:
+df = pd.read_csv('nome_do_arquivo.csv')
+
+3. Visualização dos primeiros registros:
+df.head()
+
+4. Informações sobre o DataFrame:
+df.info()
+
+5. Estatísticas descritivas:
+df.describe()
+
+6. Seleção de colunas:
+df['nome_da_coluna']
+
+7. Filtragem de dados:
+df[df['nome_da_coluna'] > valor]
+
+8. Ordenação de dados:
+df.sort_values('nome_da_coluna')
+
+9. Manipulação de dados ausentes:
+df.fillna(valor)
+df.dropna()
+
+10. Agrupamento de dados:
+df.groupby('nome_da_coluna')
+
+11. Criação de novas colunas:
+df['nova_coluna'] = df['coluna1'] + df['coluna2']
+
+12. Aplicação de funções:
+df['coluna'].apply(funcao)
+
+13. Visualização de dados:
+df['coluna'].plot(kind='hist')
