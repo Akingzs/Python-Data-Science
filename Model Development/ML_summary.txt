@@ -1,0 +1,25 @@
+* Supervised Learning: The algorithm is trained with a labeled data set, where input examples are associated with correct outputs. The goal is to learn to map inputs to outputs and make accurate predictions on new and unknown data. 
+
+* Unsupervised Learning: The algorithm is trained with an unlabeled data set and the goal is to identify patterns, structures, or clusters in the data. Common techniques include clustering and dimensionality reduction. 
+
+* Reinforcement Learning: The algorithm learns to make decisions based on interactions with an environment, receiving feedback in the form of rewards or punishments. The goal is to maximize the reward accumulated over time.
+
+Machine Learning has many practical applications in areas such as natural language processing, computer vision, speech recognition, recommendation systems and medical diagnosis, among others.
+
+----------
+
+SUPERVISED learning is one of the main types of Machine Learning approaches that we will see in practice now in this chapter. 
+
+In this method, the algorithm is trained using a set of labeled data, where each input example has a corresponding output, also known as a "label" or "tag". The goal is for the model to learn to map the inputs to the correct outputs and thus be able to make accurate predictions for new and unknown data. 
+
+During the training process, the algorithm analyzes the input examples and adjusts its internal parameters to minimize the difference between the generated predictions and the correct outputs (labels). This process is carried out iteratively until the model reaches an acceptable level of accuracy. 
+
+Supervised learning can be applied to two main types of problems:
+
+* Regression: when the expected output is a continuous value, such as predicting property prices or estimating of a person's age based on specific characteristics. 
+
+* Classification: when the expected output is a category or class, such as determining whether an email is spam or not spam, or identifying the species of a plant based on measurements of its characteristics .
+
+Supervised learning is widely used in many practical applications, such as handwritten digit recognition, medical diagnosis and sentiment analysis in texts, among others.
+
+----------
