@@ -23,3 +23,20 @@ Supervised learning can be applied to two main types of problems:
 Supervised learning is widely used in many practical applications, such as handwritten digit recognition, medical diagnosis and sentiment analysis in texts, among others.
 
 ----------
+
+1. Classification:
+Classification is a type of supervised learning where the output is a categorical variable. It involves predicting the class or category of a given input data. For example, an algorithm can learn to predict whether a given email is spam or not.
+
+    Types of Classification:
+    - Binary Classification: Classifying the input into one of two classes. For example, determining whether a person has a certain disease or not.
+    - Multiclass Classification: Classifying the input into one of several classes. For example, determining which species a flower belongs to based on data about different species.
+
+2. Regression:
+Regression is another type of supervised learning where the output is a continuous variable. It involves predicting a numerical output based on the value of one or more predictor variables. For example, a regression algorithm could be used to predict the price of a house based on its size, location, and other features.
+
+3. Clustering:
+Clustering is a type of unsupervised learning where the goal is to group similar data points together. It's used when you have unlabeled data and you want to find some inherent grouping among them. For example, you can group documents by topic or stars by brightness.
+
+    Types of Clustering:
+    - Hard Clustering: Each data point belongs to a cluster completely or not.
+    - Soft Clustering: Instead of assigning each data point into a separate cluster, a probability or likelihood of that point being in that cluster is evaluated.
