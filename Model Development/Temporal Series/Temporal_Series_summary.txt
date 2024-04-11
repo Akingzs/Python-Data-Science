@@ -14,23 +14,32 @@ Time series analysis involves using statistical and machine learning techniques 
 
 -----------
 
-There are several time series analysis techniques that can be used to understand and model the structure of data over time. Some of the main techniques include: 
+Analysis and forecasting of time series is an advanced level activity in the world of Data Science. In this chapter, we will provide a brief introduction to the topic. There are several time series analysis techniques that can be used to understand and model the structure of data over time. 
 
-    - Time Series Decomposition: Decomposition is a technique that separates a time series into its basic components, such as trend, seasonality, and residuals (or noise). This helps you better understand the dynamics of the series and makes modeling and forecasting easier.
-    - Moving Averages: Moving averages are a smoothing technique that averages a fixed number of consecutive data points to create a new smoothed time series. This helps reduce noise and identify long-term trends.
-    - Exponential Smoothing: Exponential smoothing is another smoothing technique that assigns exponentially decreasing weights to previous data points. This gives more importance to the most recent data and helps identify short-term trends and patterns. 
+Some of the main techniques include: 
+
+    1. Time Series Decomposition: Decomposition is a technique that separates a time series into its basic components, such as trend, seasonality, and residuals (or noise). This helps you better understand the dynamics of the series and makes modeling and forecasting easier.
+
+    2. Moving Averages: Moving averages are a smoothing technique that averages a fixed number of consecutive data points to create a new smoothed time series. This helps reduce noise and identify long-term trends.
+
+    3. Exponential Smoothing: Exponential smoothing is another smoothing technique that assigns exponentially decreasing weights to previous data points. This gives more importance to the most recent data and helps identify short-term trends and patterns. 
         - Simple Exponential Smoothing (SES): This is a time series forecasting method for univariate data without a trend or seasonality. It requires a single parameter, called the smoothing factor.
         - Holt’s Linear Exponential Smoothing: This extends SES to allow forecasting of data with a trend. This method involves a double smoothing process, one for the level and one for the trend.
         - Holt-Winters’ Method: This method can handle both trend and seasonality. It involves a triple smoothing process: one for the level, one for the trend, and one for the seasonality.
-    - Autoregressive (AR) Models: Autoregressive models are linear models that use the past values of the time series itself to predict future values. The number of past values used in the model is called the order of the AR model.
-    - Moving Average (MA) Models: Moving average models are linear models that use past residuals (prediction errors) to predict future values. The number of past residuals used in the model is called the order of the MA model.
-    - ARIMA (Autoregressive Integrated Moving Average) models: ARIMA models combine elements of the AR and MA models and also include differencing to make the time series stationary. ARIMA models are widely used for time series forecasting and can deal with trends and seasonality.
-    - SARIMA models (Seasonal ARIMA): SARIMA models extend ARIMA models to include seasonal terms, making them suitable for time series with clear seasonal patterns. State Space Models: State space models are a more general approach to modeling time series that can include linear and nonlinear models, as well as fixed and random effects models. Examples of state space models include Holt-Winters exponential smoothing models and Kalman models. 
-    - Machine Learning Methods: In addition to traditional statistical techniques, machine learning methods such as neural networks, support vector machines, and Decision trees can also be used to model and forecast time series. These methods often require transforming time series data into a format suitable for machine learning modeling.
 
-Each technique has its own advantages and limitations, and the choice of the most appropriate technique depends on the characteristics of the time series in question, such as the presence of trends, seasonality and noise, as well as the objectives of the project. 
+    4. Autoregressive (AR) Models: Autoregressive models are linear models that use the past values of the time series itself to predict future values. The number of past values used in the model is called the order of the AR model.
 
-Analysis and forecasting of time series is an advanced level activity in the world of Data Science and in this chapter we will provide a brief introduction to the topic. We chose the Exponential Smoothing technique for this chapter.
+    5. Moving Average (MA) Models: Moving average models are linear models that use past residuals (prediction errors) to predict future values. The number of past residuals used in the model is called the order of the MA model.
+
+    6. ARIMA (Autoregressive Integrated Moving Average) models: ARIMA models combine elements of the AR and MA models and also include differencing to make the time series stationary. ARIMA models are widely used for time series forecasting and can deal with trends and seasonality.
+
+    7. SARIMA models (Seasonal ARIMA): SARIMA models extend ARIMA models to include seasonal terms, making them suitable for time series with clear seasonal patterns.
+
+    8. State Space Models: State space models are a more general approach to modeling time series that can include linear and nonlinear models, as well as fixed and random effects models. Examples of state space models include Holt-Winters exponential smoothing models and Kalman models. 
+
+    9. Machine Learning Methods: In addition to traditional statistical techniques, machine learning methods such as neural networks, support vector machines, and Decision trees can also be used to model and forecast time series. These methods often require transforming time series data into a format suitable for machine learning modeling.
+
+    Each technique has its own advantages and limitations, and the choice of the most appropriate technique depends on the characteristics of the time series in question, such as the presence of trends, seasonality and noise, as well as the objectives of the project. 
 
 ------
 
