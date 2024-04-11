@@ -1,3 +1,5 @@
+https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-to-time-series-analysis/
+https://www.linkedin.com/advice/1/what-most-effective-methods-time-series-forecasting#:~:text=There%20are%20many%20different%20methods,smoothing%2C%20ARIMA%2C%20and%20SARIMA.
 
 Time series are sets of data that are collected, observed or recorded at regular or irregular time intervals. This data is organized in a temporal sequence, which means that each data point is associated with a specific moment in time. Time series are used to analyze trends, patterns, and seasonalities in data over time, as well as to predict future events based on historical data
 
