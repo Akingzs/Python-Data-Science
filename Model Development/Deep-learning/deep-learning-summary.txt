@@ -1,0 +1,25 @@
+Deep Learning:
+- Subfield of Artificial Intelligence (AI) and machine learning.
+- Focuses on the development of algorithms and models that mimic the human brain's information processing and learning from data.
+- Models are called artificial neural networks, consisting of several layers of interconnected mathematical neurons.
+- Processes information in a hierarchical and non-linear way.
+
+"Deep" in Deep Learning:
+- Refers to the presence of several hidden layers in a neural network.
+- Allows the model to learn more complex and abstract representations of the data.
+- Contrasts with shallow learning, which involves models with only one or a few hidden layers.
+
+Applications of Deep Learning:
+- Computer Vision: Object recognition, object detection, semantic segmentation, facial recognition, and image synthesis.
+- Natural Language Processing (NLP): Automatic translation, sentiment analysis, text generation, automatic summarization, and speech recognition.
+- Recommendation Systems: Collaborative filtering, content personalization, and user segmentation.
+- Games: Training agents to play video games or board games like Go and chess.
+- Robotics: Autonomous navigation, manipulator control, and human-robot interaction.
+- Time Series Analysis: Demand forecasting, trend analysis, and anomaly detection.
+
+Success Factors of Deep Learning:
+- Increased availability of data.
+- Advances in computing power (especially GPUs).
+- Improvements in training techniques and model architectures.
+
+https://www.deeplearningbook.com.br/
