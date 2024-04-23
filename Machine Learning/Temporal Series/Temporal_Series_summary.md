@@ -1,0 +1,84 @@
+https://www.analyticsvidhya.com/blog/2021/10/a-comprehensive-guide-to-time-series-analysis/
+https://www.linkedin.com/advice/1/what-most-effective-methods-time-series-forecasting#:~:text=There%20are%20many%20different%20methods,smoothing%2C%20ARIMA%2C%20and%20SARIMA.
+
+# Time Series
+
+Time series are sets of data that are collected, observed or recorded at regular or irregular time intervals. This data is organized in a temporal sequence, which means that each data point is associated with a specific moment in time. Time series are used to analyze trends, patterns, and seasonalities in data over time, as well as to predict future events based on historical data.
+
+Time series are common in many areas, including economics, finance, meteorology, social sciences, and many other fields. Some examples of time series include:
+
+- **Daily stock prices** on the stock market.
+- Number of **monthly sales** of a specific product.
+- **Average daily temperature** in a city over a year.
+- Amount of **rain accumulated per hour** during a weather event.
+
+## Time Series Analysis
+
+Time series analysis involves using statistical and machine learning techniques to identify trends, patterns, and relationships in data over time, as well as to predict future events based on historical data. These techniques include:
+
+- **Time series decomposition**: A method that deconstructs a time series into several components, each representing an underlying pattern category, trend, seasonality, and noise.
+- **Exponential smoothing**: A time series forecasting method for univariate data that can be used to forecast data points by calculating the weighted average of past observations, with the weights decaying exponentially as the observations get older.
+- **Autoregressive models (AR)**: A representation of a type of random process; as such, it is used to describe certain time-varying processes in nature, economics, etc.
+- **Moving average models (MA)**: In time series analysis, the moving-average model is a common approach for modeling univariate time series models.
+- **ARIMA models**: Short for 'AutoRegressive Integrated Moving Average', it's a forecasting algorithm based on the idea that the information in the past values of the time series can alone be used to predict the future values.
+- **Artificial Intelligence techniques**: These include machine learning and deep learning techniques for forecasting time series data.
+
+
+---
+
+# Time Series Analysis and Forecasting
+
+Analysis and forecasting of time series is an advanced level activity in the world of Data Science. There are several time series analysis techniques that can be used to understand and model the structure of data over time.
+
+## Main Techniques
+
+1. **Time Series Decomposition**: Decomposition is a technique that separates a time series into its basic components, such as trend, seasonality, and residuals (or noise). This helps you better understand the dynamics of the series and makes modeling and forecasting easier.
+
+2. **Moving Averages**: Moving averages are a smoothing technique that averages a fixed number of consecutive data points to create a new smoothed time series. This helps reduce noise and identify long-term trends.
+
+3. **Exponential Smoothing**: Exponential smoothing is another smoothing technique that assigns exponentially decreasing weights to previous data points. This gives more importance to the most recent data and helps identify short-term trends and patterns.
+    - **Simple Exponential Smoothing (SES)**: This is a time series forecasting method for univariate data without a trend or seasonality. It requires a single parameter, called the smoothing factor.
+    - **Holt’s Linear Exponential Smoothing**: This extends SES to allow forecasting of data with a trend. This method involves a double smoothing process, one for the level and one for the trend.
+    - **Holt-Winters’ Method**: This method can handle both trend and seasonality. It involves a triple smoothing process: one for the level, one for the trend, and one for the seasonality.
+
+4. **Autoregressive (AR) Models**: Autoregressive models are linear models that use the past values of the time series itself to predict future values. The number of past values used in the model is called the order of the AR model.
+
+5. **Moving Average (MA) Models**: Moving average models are linear models that use past residuals (prediction errors) to predict future values. The number of past residuals used in the model is called the order of the MA model.
+
+6. **ARIMA (Autoregressive Integrated Moving Average) models**: ARIMA models combine elements of the AR and MA models and also include differencing to make the time series stationary. ARIMA models are widely used for time series forecasting and can deal with trends and seasonality.
+
+7. **SARIMA models (Seasonal ARIMA)**: SARIMA models extend ARIMA models to include seasonal terms, making them suitable for time series with clear seasonal patterns.
+
+8. **State Space Models**: State space models are a more general approach to modeling time series that can include linear and nonlinear models, as well as fixed and random effects models. Examples of state space models include Holt-Winters exponential smoothing models and Kalman models.
+
+9. **Machine Learning Methods**: In addition to traditional statistical techniques, machine learning methods such as neural networks, support vector machines, and Decision trees can also be used to model and forecast time series. These methods often require transforming time series data into a format suitable for machine learning modeling.
+
+Each technique has its own advantages and limitations, and the choice of the most appropriate technique depends on the characteristics of the time series in question, such as the presence of trends, seasonality and noise, as well as the objectives of the project.
+
+
+---
+
+# Time Series Analysis and Regression Analysis
+
+Time Series Analysis and Regression Analysis are two different approaches to analyzing and modeling data, although they may have some similarities in terms of statistical techniques. The main difference between the two approaches lies in the type of data being analyzed and the objectives of the analysis.
+
+## Time Series Analysis
+
+- Deals with data collected over time, where each observation is associated with a specific point in time.
+- The main objective is to identify patterns, trends, and seasonality in the data, and predict future events based on historical data.
+- Time series analysis techniques take into account the temporal structure of the data, such as autocorrelation (the correlation between the values of a time series and its lagged values) and stationarity (the property of having constant mean, variance, and autocorrelation over time).
+- Examples of time series analysis techniques include autoregressive models (AR), moving average models (MA), ARIMA models, exponential smoothing, and Artificial Intelligence techniques.
+
+## Regression Analysis
+
+- Deals with the relationship between a dependent variable and one or more independent variables (explanatory).
+- The main objective is to model the relationship between the variables, estimate the effects of the independent variables on the dependent variable, and make inferences about these relationships.
+- Regression analysis does not focus on the temporal structure of the data, but rather on the relationship between the variables.
+- Examples of regression analysis techniques include simple linear regression, multiple linear regression, logistic regression, and nonlinear regression.
+
+Despite the differences, some techniques of time series analysis and regression analysis are related. For example, autoregressive models (AR) used in time series analysis are similar to linear regression, but with the difference that the lagged values of the time series itself are used as independent variables. In addition, regression with lagged variables or time functions can be used to model the temporal relationship in time series, although this is not as common as specific methods of time series analysis.
+
+That is, regression analysis and time series analysis techniques aim to predict numerical values. In regression, we are not concerned with the time factor, while in time series analysis everything revolves around the time factor.
+
+Therefore, the choice of technique will depend, as always, on the business problem to be solved.
+
